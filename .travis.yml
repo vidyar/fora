@@ -18,10 +18,3 @@ notifications:
 services:
   - redis-server
 
-deploy:
-  provider: heroku
-  api_key:
-    secure: KBUFp9rea2ve21bXvPxox3nIr2NHz/EOhB7kLaPNysPzYq9jVuXbPRZ2SMj3ReyZyZrwUKuaVUqGR0Bn+yNS+w+Xe5tA5uBI2WOvw+s7cM3GrZNAcNYJWbnJAqZgWHLAV7w2PLwoCF2LaiZYgKOApOYtkOIgKNXSSVT3CtAiLTg=
-  app: fora
-  on:
-    repo: toctan/fora
